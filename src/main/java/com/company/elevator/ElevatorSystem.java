@@ -121,6 +121,9 @@ public class ElevatorSystem {
         return availableElevators;
     }
 
+    /**
+     * This method prints available elevators to the console
+     */
     public void checkAvailableElevators(){
         long i = 0;
         System.out.println("Available Elevators: ");
