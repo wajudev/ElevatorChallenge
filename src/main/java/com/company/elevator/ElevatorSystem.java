@@ -123,9 +123,10 @@ public class ElevatorSystem {
 
     public void checkAvailableElevators(){
         long i = 0;
+        System.out.println("Available Elevators: ");
         for (Elevator elevator : elevators){
             i++;
-            System.out.println("Available Elevators: " + elevator.getElevatorId());
+            System.out.println("Elevator id: [" + elevator.getElevatorId() + "]");
         }
         System.out.println("Number of Available Elevators: " + "[" + i + "]");
     }

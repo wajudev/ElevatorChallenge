@@ -42,7 +42,7 @@ public class Request {
     }
 
     public String printStatus(){
-        return "to the " + ordinal(currentFloor) + ". Floor, then " + elevatorStatus + " to the " + ordinal(destinationFloor) + " Floor";
+        return "to the " + ordinal(currentFloor) + " Floor, then " + elevatorStatus + " to the " + ordinal(destinationFloor) + " Floor";
     }
 
     public String getRequestId() {

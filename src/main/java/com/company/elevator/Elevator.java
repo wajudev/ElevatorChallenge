@@ -36,6 +36,6 @@ public class Elevator {
     }
 
     public String print(){
-        return "Elevator(id: " + elevatorId + ", Current Floor: " + currentFloor + ")";
+        return "Elevator [id: " + elevatorId + ", Current Floor: " + currentFloor + "]";
     }
 }
